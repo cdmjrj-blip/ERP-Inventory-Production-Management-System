@@ -1,4 +1,4 @@
-# SMQWX ERP 管理系统
+# ERP 生产管理系统
 
 > 面向五金制品制造业的**进销存 + 生产管理**一体化系统。
 > ASP.NET MVC 5 ( .NET Framework 4.8 ) 单体应用,SQL Server 存储,`SqlSugar` 轻量 ORM。
