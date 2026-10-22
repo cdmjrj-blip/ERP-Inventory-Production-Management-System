@@ -35,26 +35,26 @@
 
 ### 登录
 
-
-
+![登录](login.png)
 
 ### 工作台首页
 
 登录后进入工作台,顶部汇总焊接产量、成品入库、发货数量/金额、待审核流转、今日主计划六个指标卡,并带近 7 日趋势图。
 
-![工作台首页](docs/images/01-home-dashboard.jpg)
+![工作台首页](main.png)
 
 ### 功能菜单
 
 顶部六大菜单由数据库 `menu` 表驱动,配合角色权限动态下发。
 
-![业务处理菜单](docs/images/02-menu-trade.jpg)
+
 
 ### 基础资料 — 商品信息
 
 按分类树维护产品,支持产品生产属性、拼音码、规格颜色、默认库位、一品多码等;`products.ismeterial` 区分原材料 0 / 半成品 1 / 成品 2 / 辅料 3 / 劳务 4。
 
-![商品信息](docs/images/04-baseinfo-product.jpg)
+![商品信息](baseinfo.png)
+![商品信息](addbaseinfo.png)
 
 ### 业务处理 — 销售单 / 进货单
 
@@ -62,7 +62,7 @@
 
 | 销售单 | 进货单 |
 |---|---|
-| ![销售单](docs/images/03-trade-sale.jpg) | ![进货单](docs/images/07-trade-buy.jpg) |
+| ![进货单](bill.png) |
 
 ### 业务查询 — 进销存全能报表 / 库存报表
 
@@ -70,19 +70,18 @@
 
 | 进销存全能报表 | 库存报表 |
 |---|---|
-| ![进销存全能报表](docs/images/05-report-jxc-batch.jpg) | ![库存报表](docs/images/06-report-stock.jpg) |
+| ![进销存全能报表](report.png) |
 
 ### 生产报表 — 焊接生产日报
 
 按天汇总焊接产量、3P、留作 3P、用针丝量、领针丝量、一体针、纹身针,口径与半成品入库报表一致。
 
-![焊接生产日报](docs/images/11-report-weld-daily.jpg)
 
-### 财务处理 — 利润表
+### 财务处理 — 资产负债表
 
-标准三段式利润表,支持自定义起止日期区间查询与导出。
+标准三段式资产负债表,支持自定义起止日期区间查询与导出。
 
-![利润表](docs/images/08-finance-profit.jpg)
+![资产负债表](zcfz.jpg)
 
 ### 系统管理 — 角色和权限管理
 
